@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/millicon_background"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".GameQuiz">
+
+    <TextView
+        android:id="@+id/money"
+        android:layout_width="78dp"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:text="@string/money"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/question_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:freezesText="true"
+        android:text="@string/QuestionCount"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/text_question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:freezesText="true"
+        android:text="@string/question"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:background="@color/white"
+            android:text="@string/option_1"/>
+
+        <RadioButton
+            android:id="@+id/radio_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:background="@color/white"
+            android:text="@string/option_2"/>
+
+        <RadioButton
+            android:id="@+id/radio_button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:background="@color/white"
+            android:text="@string/option_3"/>
+
+        <RadioButton
+            android:id="@+id/radio_button4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:freezesText="true"
+            android:background="@color/white"
+            android:text="@string/option_4"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button_confirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:freezesText="true"
+        android:text="@string/confirm"/>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:freezesText="true"
+        android:text="@string/next"/>
+
+</LinearLayout>

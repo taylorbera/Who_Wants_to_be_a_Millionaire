@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Who Wants to be a Millionaire</string>
+    <string name="image">image</string>
+    <string name="play">play</string>
+    <string name="intro">Broadway Edition!</string>
+    <string name="explain">Test your knowledge on all things musical theatre. The game consists of 15 questions. The level of difficulty increases with each question, and so does your potential wealth. For example, if you answer the first question correctly your prize money goes from $100 to $1000000. As you work your way through the questions by supplying the correct answers your riches grow exponentially until you reach the final question - and if you answer it correctly you will succeed in making a million dollars! Hopefully you\'ll use it toward your dreams…</string>
+    <string name="score">score</string>
+    <string name="QuestionCount">Question: 1 / 10</string>
+    <string name="question">Question</string>
+    <string name="option_1">option 1</string>
+    <string name="option_2">option 2</string>
+    <string name="option_3">option 3</string>
+    <string name="option_4">option 4</string>
+    <string name="submit">submit</string>
+    <string name="string_submit">submit</string>
+    <string name="win">You won $1000000</string>
+    <string name="playagain">Play Again</string>
+    <string name="money">Money</string>
+    <string name="confirm">Confirm</string>
+    <string name="next">Next Question</string>
+</resources>
